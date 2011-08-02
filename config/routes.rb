@@ -1,20 +1,14 @@
 Kokioh::Application.routes.draw do
+  root :to => 'pages#home'
+
   get "sessions/new"
-
   get "sessions/create"
-
   get "sessions/destroy"
-
   get "pages/home"
-
   get "pages/design"
-
   get "pages/illustration"
-
   get "pages/demos"
-
   get "pages/crafts"
-
   get "pages/hire"
 
   # The priority is based upon order of creation:
