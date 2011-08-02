@@ -1,4 +1,16 @@
 Kokioh::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/design"
+
+  get "pages/illustration"
+
+  get "pages/demos"
+
+  get "pages/crafts"
+
+  get "pages/hire"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
